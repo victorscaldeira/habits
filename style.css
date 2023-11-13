@@ -15,10 +15,10 @@ body {
 }
 
 .container {
- display: flex;
- flex-direction: column;
- gap: 70px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
 }
 
 header{
@@ -46,7 +46,39 @@ header button {
 
 header button:hover {
     border-color: white;
+}
 
+.container_habits {
 
+}
 
+.line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.line p {
+    color: #A1A1AA; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habits {
+    display: flex;
+    gap: 8px;
+}
+
+.habit {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: 2px solid #6D28D9;
+    background: #4C1D95;
 }
