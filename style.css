@@ -49,7 +49,9 @@ header button:hover {
 }
 
 .container_habits {
-
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .line {
@@ -79,6 +81,25 @@ header button:hover {
     height: 40px;
     width: 40px;
     border-radius: 8px;
-    border: 2px solid #6D28D9;
-    background: #4C1D95;
+    border: 2px solid #27272a;
+    background: #18181b;
 }
+
+.violet-30{
+    background-color: #a78bfa;
+    border-color: #8b5cf6;
+    
+}
+
+.violet-60{
+    background-color: #8B5CF6;
+    border-color: #7c3aed;
+}
+
+.violet-90{
+  background-color: #4C1D95;
+    border-color: #7c3aed;
+}
+
+
+
