@@ -8,5 +8,39 @@
 body {
     background: #09090A;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.container {
+ 
+
+}
+
+header button {
+    background-color: transparent;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid  #8B5CF6;
+    color:#FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    transition: border-color 300ms;
+
+}
+
+header button:hover {
+    border-color: white;
+
+
 
 }
