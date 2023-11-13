@@ -12,13 +12,20 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
-
 }
 
 .container {
- 
+ display: flex;
+ flex-direction: column;
+ gap: 70px;
 
+}
+
+header{
+    display:flex;
+    width: 720px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header button {
@@ -35,7 +42,6 @@ header button {
     gap: 12px;
     align-items: center;
     transition: border-color 300ms;
-
 }
 
 header button:hover {
