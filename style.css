@@ -72,6 +72,11 @@ header button:hover {
     justify-content: center;
 }
 
+.line:hover p{
+    color: white;
+    font-weight: 900; 
+}
+
 .habits {
     display: flex;
     gap: 8px;
@@ -86,9 +91,7 @@ header button:hover {
 }
 
 .habit:hover {
-   
-    border-color: #ffffff; /* Cor da borda alterada durante o hover */
-    /* Outros estilos desejados durante o hover */
+    border-color: #ffffff; 
 }
 
 .violet-30{
