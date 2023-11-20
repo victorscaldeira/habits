@@ -85,6 +85,12 @@ header button:hover {
     background: #18181b;
 }
 
+.habit:hover {
+   
+    border-color: #ffffff; /* Cor da borda alterada durante o hover */
+    /* Outros estilos desejados durante o hover */
+}
+
 .violet-30{
     background-color: #a78bfa;
     border-color: #8b5cf6;
